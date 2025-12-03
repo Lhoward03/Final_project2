@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #444444, #000000);
+    height: 100vh;
+    margin: 0;
+}
+
+legend{
+    margin: auto 0;
+    color: red;
+    text-align: left;
+    font-size: 20px;
+    background-color: wheat;
+    padding: 10px 10px 10px 10xp;
+    height:25px;
+    border-radius: 5px;
+}
+
+fieldset{
+    background-color: black;
+    width: 40%;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    margin: 0 auto;
+    flex-direction: column;   /* stack items vertically */
+}
+
+fieldset div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;          
+    margin: 0 auto;
+    color:wheat;      
+}
+
+input, textarea {
+    width: 55%;
+}
+
+div{
+    padding: 10px 10px 10px 10px
+}
+
+textarea{
+    height: 100px;
+    resize: none;
+}
+
+.submit-row {
+    display: flex;
+    margin-top: 10px;
+} 
+
+#submit , #reset{
+    width: 150px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+    margin: 0  auto;
+    border: none;
+}
+
+#submit{
+    background-color: red;
+    color: gray;
+}
+
+label{
+    text-align: left;
+}
+
+#reset{
+    background-color: peachpuff;
+    color: gray;
+}
+
+header{
+    color: red;
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+#home{
+    width: 150px;
+    margin: auto;
+    border: none; 
+    background-color: red; /* Set a background color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+}
